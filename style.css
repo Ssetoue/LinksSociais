@@ -1,0 +1,103 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ a{
+   text-decoration: none;
+ }
+ html{
+   --bg-color: rgb(230, 214, 234);
+   --text-color: #00082F;
+   --primary-color: plum ;
+   --primery-color-dark: rgb(99, 57, 99);
+ }
+ body.purple-dark{
+   --bg-color: rgb(42, 40, 40);
+   --text-color:  white;
+   --primary-color: rgb(99, 57, 99);
+   --prymary-color-dark: plum;
+ }
+ body.yellow{
+   --bg-color: rgb(227, 227, 159);
+   --text-color:  #00082F;
+   --primary-color: rgb(255, 255, 91);
+   --prymary-color-dark: rgb(210, 210, 59);
+ }
+ body.yellow-dark{
+   --bg-color: rgb(42, 40, 40);
+   --text-color:  rgb(239, 237, 237);
+   --primary-color: rgb(138, 138, 53);
+   --prymary-color-dark: rgb(225, 225, 113);
+ }
+ 
+ body{
+   background: var(--bg-color);
+   color: var(--text-color);
+   font-family: 'Inter', sans-serif;
+ }
+ 
+ .container{
+   border: 7px dashed rgb(104, 208, 173);
+   text-align: center;
+   width: 300px;
+   margin: 68px auto;
+ 
+ }
+ img{
+   width: 100%;
+   border: var(--primary-color) solid 4px;
+   padding: 3px;
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   margin-top: 15px;
+   }
+   h1{
+   margin-top: 15px;
+   margin-bottom: 8px;
+   font-size: 32px;
+ }
+   .user{
+     font-family: 'Inter', sans-serif;
+     font-weight: 400;
+     opacity: 0.8;
+     font-size: 18px;
+   }
+ ul{
+   list-style: none;
+   margin: 48px 0px;
+ }
+ 
+ ul li a{
+   height: 53px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:var(--primary-color);
+   color: var(--text-color);
+   text-transform: uppercase;
+   font-size: 14px;
+   margin-bottom: 16px;
+   border-radius: 6px;
+   margin-left: 15px;
+   margin-right: 15px;
+ 
+   transition: background 400ms;
+ }
+ ul li a:hover{
+   background: var(--prymary-color-dark) ;
+ }
+ footer{
+   font-weight: 400;
+   font-size: 12px;
+   opacity: 0.6;
+ 
+   transition: opacity 400ms;
+ }
+ footer:hover{
+   opacity: 1;
+ }
+ footer a {
+   color: var(--text-color);
+ }
