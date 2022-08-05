@@ -44,6 +44,11 @@
    margin: 68px auto;
  
  }
+ .color{
+  width: 5px;
+  height: 5px;
+  background-color: var(--bg-color);
+ }
  img{
    width: 100%;
    border: var(--primary-color) solid 4px;
